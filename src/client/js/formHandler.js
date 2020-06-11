@@ -16,7 +16,7 @@ async function handleSubmit(event) {
     console.log("::: Form Submitted Valid :::")
     console.log("Body: " + formText)
     console.log("Params: "+params)
-    await fetch('http://localhost:8080/results', {
+    await fetch('http://localhost:8081/results', {
         method: 'POST',
         credentials: 'same-origin',
         headers: {
